@@ -54,7 +54,7 @@ export const portfolioData = {
         {
             title: "Programación de videojuegos con C# en UNITY3D",
             institution: "Escuela de Organización Industrial (EOI)",
-            date: "2018 - 2020",
+            date: "2017 - 2019",
             description: "Desarrollo de videojuegos multiplataforma con UNITY3D",
             items: [
                 "Programación orientada a objetos",
@@ -94,7 +94,66 @@ export const portfolioData = {
         }
     ],
     experience: [
-
+        {
+            title: "Desarrollador de Software Python",
+            company: "TSS Ciberseguridad",
+            date: "2026 - Actualidad",
+            description: "Desarrollo de software para la gestión de clientes (CRM).",
+            items: [
+                "Gestión de clientes, oportunidades, productos, interacciones, etc.",
+                "Análisis de gastos/ingresos con IA para predicciones",
+                "CustomTkinter",
+                "SQL",
+                "Machine Learning"
+            ]
+        },
+        {
+            title: "Servicio de asistencia técnica",
+            company: "Esoj Sistemas",
+            date: "2022 - 2025",
+            description: "Resolución de incidencias técnicas y mantenimiento de la infraestructura informática de la oficina y clientes.",
+            items: [
+                "Mantenimiento de hardware y sistemas microinformáticos",
+                "Soporte técnico de equipos de impresión",
+                "Atención y soporte directo a clientes in situ y remoto"
+            ]
+        },
+        {
+            title: "Desarrollador de videojuegos con C# en UNITY3D",
+            company: "Nullware Soft",
+            date: "2019 - 2021",
+            description: "Desarrollo de videojuegos para PC y Android",
+            items: [
+                "Scripting",
+                "Interfaz de Usuario",
+                "Inteligencia artificial (NPCs)",
+                "Animaciones",
+                "Control de escenas"
+            ]
+        },
+        {
+            title: "Instalador de sistemas contra incendios",
+            company: "Mogasur SL",
+            date: "2017 - 2018",
+            description: "Instalación y mantenimiento de sistemas contra incendios",
+            items: [
+                "Sistemas electricos contra incendios",
+                "Extintores",
+                "Fontanería contra incendios"
+            ]
+        },
+        {
+            title: "Tester de equipos de seguridad electrónica",
+            company: "UTC Fire & Security",
+            date: "2017",
+            description: "Pruebas de nuevos equipos de seguridad electrónica en desarrollo",
+            items: [
+                "Validación de funciones",
+                "Detección de errores y verificación de calidad",
+                "Documentación técnica y procedimientos de test"
+            ]
+        }
+        
     ],
     projects: [
 
