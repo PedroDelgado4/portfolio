@@ -155,7 +155,54 @@ export const portfolioData = {
         }
         
     ],
-    projects: [
 
+    projects: [
+        {
+            title: "Finance Tracker",
+            state: "Finalizado",
+            stack: ["Vue.js", "Pinia", "Tailwind CSS", "Chart.js"],
+            description: "Apliación FrontEnd SPA de un gestor de finanzas personales con Vue3. Permite al usuario controlar sus ingresos y gastos y ver sus movimientos de los últimos 30 días en forma de gráfica, de forma persistente mediante LocalStorage. Incluye cambio de idioma (Inglés y Español) y opción de modo oscuro.",
+            image: "/finanzas.PNG", 
+            demoUrl: "https://finanzas-app-dusky.vercel.app",
+            repoUrl: "https://github.com/PedroDelgado4/finanzas-app"
+        },
+        {
+            title: "EduStore",
+            state: "Finalizado",
+            stack: ["Vue.js", "Pinia", "Tailwind CSS"],
+            description: "Apliación FrontEnd SPA de un comercio electrónico (ecommerce) hecha con Vue3, usando Pinia para gestión de estados y Tailwind CSS. Incluye filtrado en tiempo real, carrito persistente via LocalStorage y animaciones fluidas aprovechando Tailwind.",
+            image: "/ecommerce.PNG", 
+            demoUrl: "https://ecommerce-ochre-pi-83.vercel.app",
+            repoUrl: "https://github.com/PedroDelgado4/ecommerce"
+        },
+        {
+            title: "ShieldText",
+            state: "Finalizado",
+            stack: ["Python", "Flask", "Pandas", "Stickit-Learn", "React.js", "Vite", "Axios"],
+            description: "Aplicación FullStack de detección de estafas por SMS usando Machine Learning. El modelo ha sido entrenado con un dataset de cientos de mensajes reales para distinguir entre seguro o inseguro (spam). (NOTA): Aun que se puede acceder al frontend de la aplicación, actualmente no funcionará ya que la base de datos de render ha expirado. Puedes descargar el código y probarlo localmente en el enlace a GitHub.",
+            image: "/shieldtext.PNG", 
+            demoUrl: "https://shieldtext.vercel.app",
+            repoUrl: "https://github.com/PedroDelgado4/shieldtext"
+        },
+        {
+            title: "FocusBoard",
+            state: "Finalizado",
+            stack: ["Python", "Flask", "SQLite", "PostgreSQL", "React.js", "Vite"],
+            description: "Aplicación FullStack de gestión de tareas. Registro y Login de usuarios. Tareas individuales de cada usuario. Persistencia en base de datos. (NOTA): Aun que se puede acceder al frontend de la aplicación, actualmente no funcionará ya que la base de datos de render ha expirado. Puedes descargar el código y probarlo localmente en el enlace a GitHub.",
+            image: "/focusboard.PNG", 
+            demoUrl: "https://focusboard-fullstack.vercel.app",
+            repoUrl: "https://github.com/PedroDelgado4/focusboard-fullstack"
+        },
+        {
+            title: "PythonFlix",
+            state: "Finalizado",
+            stack: ["Python", "Flask", "SQLite", "HTML5", "CSS"],
+            description: "Proyecto de web estilo Netflix con sistema CRUD para usuarios y catálogo, gráficas de horas de visionado y sistema de Favoritos y Visto para cada usuario. (NOTA): La aplicación no está subida a producción. Puedes descargar el código y probarlo localmente en el enlace a GitHub.",
+            image: "/pythonflix.PNG", 
+            demoUrl: "",
+            repoUrl: "https://github.com/PedroDelgado4/pythonflix-flask"
+        }
+        
+        
     ]
 }
