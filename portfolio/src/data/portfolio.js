@@ -3,6 +3,7 @@ export const portfolioData = {
         name: "Pedro Delgado",
         role: "Full Stack Developer",
         location: "Sevilla, España",
+        phone: "+34 675348162",
         photo: "/perfil.png",
         about: "Soy un desarrollador apasionado por crear soluciones atractivas y eficientes, poniendo atención en cada detalle para darle siempre al usuario la mejor experiencia posible. Esta web está creada y lanzada por mí a modo de CV, usando Vue.js y Tailwind CSS.",
         email: "fpedrodelgadoduran@gmail.com",

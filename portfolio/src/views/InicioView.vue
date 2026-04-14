@@ -43,33 +43,13 @@ import { portfolioData } from '../data/portfolio.js'
         </div>
       </div>
 
-      <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-8">
-        <router-link
-          to="/portfolio"
-          class="px-6 py-3 bg-verde-claro text-black font-bold rounded-md hover:bg-verde-neon hover:shadow-[0_0_15px_rgba(56,242,5,0.6)] transition-all duration-300 transform hover:-translate-y-1"
-        >
-          Ver Portfolio
-        </router-link>
-        
-        <router-link
-          to="/experiencia"
-          class="px-6 py-3 border border-verde-base text-verde-base font-bold rounded-md hover:bg-verde-oscuro/50 transition-all duration-300"
-        >
-          Experiencia
-        </router-link>
-
-        <router-link
-          to="/educacion"
-          class="px-6 py-3 border border-verde-base text-verde-base font-bold rounded-md hover:bg-verde-oscuro/50 transition-all duration-300"
-        >
-          Educación
-        </router-link>
-
+      <div class="flex justify-center md:justify-start pt-8">
         <router-link
           to="/contacto"
-          class="px-6 py-3 border border-transparent text-white font-bold hover:text-verde-neon underline decoration-verde-base underline-offset-4 transition-all duration-300"
+          class="group relative px-12 py-4 bg-verde-claro text-black font-bold text-xl rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(56,242,5,0.6)]"
         >
-          Contactar
+          <span class="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></span>
+          ¡Contáctame!
         </router-link>
       </div>
 
